@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdulaziz Muhammed Alhadi - CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .arabic-content { font-family: 'Tajawal', sans-serif; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .5; } }
+        .animate-pulse { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+        .hidden { display: none; }
+        .lang-btn { transition: all 0.3s ease; }
+        .lang-btn:hover { transform: scale(1.05); }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-slate-50 to-slate-100 p-8">
+    <!-- Language Toggle -->
+    <div class="max-w-6xl mx-auto mb-4 flex justify-end gap-3">
+        <button onclick="switchLanguage('en')" id="btn-en" class="lang-btn bg-emerald-600 text-white px-6 py-2 rounded-full font-bold shadow-lg">English</button>
+        <button onclick="switchLanguage('ar')" id="btn-ar" class="lang-btn bg-gray-400 text-white px-6 py-2 rounded-full font-bold shadow-lg">العربية</button>
+    </div>
+
+    <!-- ENGLISH VERSION -->
+    <div id="cv-en" class="max-w-6xl mx-auto bg-white shadow-2xl rounded-lg overflow-hidden">
+        <div class="relative bg-gradient-to-r from-emerald-800 via-teal-700 to-cyan-800 text-white p-10">
+            <div class="relative z-10">
+                <h1 class="text-5xl font-bold mb-2">Abdulaziz Muhammed Alhadi</h1>
+                <p class="text-2xl text-emerald-100 mb-1">Senior IT Expert & Solutions Architect</p>
+                <p class="text-lg text-emerald-200 mb-6">25 Years of Innovation in Technology</p>
+                <div class="flex flex-wrap gap-6 text-sm">
+                    <span>📍 Al-Madinah, Saudi Arabia</span>
+                    <span>📞 +966-500700912</span>
+                    <span>✉️ aziz7m@gmail.com</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-10 gap-0">
+            <div class="col-span-3 bg-slate-50 p-8 space-y-6">
+                <section>
+                    <h2 class="text-lg font-bold text-emerald-700 mb-3">PROFILE</h2>
+                    <p class="text-sm text-slate-700 leading-relaxed">Visionary IT professional with 25 years of excellence in software engineering, system architecture, and digital transformation across government, healthcare, and commercial sectors.</p>
+                </section>
+
+                <section>
+                    <h2 class="text-lg font-bold text-emerald-700 mb-3">CORE EXPERTISE</h2>
+                    <ul class="text-sm text-slate-700 space-y-2">
+                        <li>• Enterprise Software Development</li>
+                        <li>• Full-Stack Web Development</li>
+                        <li>• Database Architecture & Design</li>
+                        <li>• IT Infrastructure Management</li>
+                        <li>• Business Process Automation</li>
+                        <li>• Digital Transformation</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="text-lg font-bold text-emerald-700 mb-3">TECHNICAL SKILLS</h2>
+                    <div class="space-y-3 text-sm">
+                        <div><strong>Languages:</strong> C#, C++, Visual Basic, Java, JavaScript</div>
+                        <div><strong>Web:</strong> ASP.NET, React, jQuery, HTML5, CSS3</div>
+                        <div><strong>Databases:</strong> SQL Server, MySQL, Oracle</div>
+                        <div><strong>Platforms:</strong> Visual Studio .NET, MS Office</div>
+                        <div><strong>Infrastructure:</strong> Network Admin, Server Management</div>
+                        <div><strong>Design:</strong> Adobe Photoshop, UI/UX</div>
+                    </div>
+                </section>
+
+                <section>
+                    <h2 class="text-lg font-bold text-emerald-700 mb-3">LANGUAGES</h2>
+                    <div class="text-sm space-y-2">
+                        <div><strong>Arabic:</strong> Native</div>
+                        <div><strong>English:</strong> Professional</div>
+                    </div>
+                </section>
+
+                <section>
+                    <h2 class="text-lg font-bold text-emerald-700 mb-3">EDUCATION</h2>
+                    <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-emerald-600">
+                        <p class="font-bold text-sm">Bachelor of IT (Honours)</p>
+                        <p class="text-xs text-teal-700">System Development & Administration</p>
+                        <p class="text-xs text-slate-500 mt-1">Al-Madinah International University</p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-span-7 p-8 space-y-6">
+                <section>
+                    <h2 class="text-2xl font-bold text-slate-800 mb-4">PROFESSIONAL EXPERIENCE</h2>
+                    
+                    <div class="space-y-4">
+                        <div class="bg-emerald-50 p-5 rounded-lg border-l-4 border-emerald-600">
+                            <div class="flex justify-between mb-2">
+                                <div>
+                                    <span class="bg-emerald-600 text-white text-xs px-2 py-1 rounded-full">CURRENT</span>
+                                    <h3 class="font-bold text-lg mt-1">IT Manager</h3>
+                                    <p class="text-emerald-700 font-semibold">Albashrah Aljadidah Medical (Neoderma & Petal)</p>
+                                </div>
+                                <span class="text-sm text-slate-600">2024 - Present</span>
+                            </div>
+                            <ul class="text-sm text-slate-700 space-y-1 ml-4">
+                                <li>• IT infrastructure management for medical facilities</li>
+                                <li>• Custom clinic web application development</li>
+                                <li>• Hardware, network, and CCTV systems management</li>
+                                <li>• Digital transformation initiatives</li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-slate-50 p-4 rounded-lg">
+                            <h3 class="font-bold">IT Manager & Lead Developer</h3>
+                            <p class="text-sm text-emerald-700">General Car Syndicate (2011-2024)</p>
+                        </div>
+
+                        <div class="bg-slate-50 p-4 rounded-lg">
+                            <h3 class="font-bold">Senior Software Developer</h3>
+                            <p class="text-sm text-emerald-700">Future Line Company (2022-2024)</p>
+                        </div>
+
+                        <div class="bg-slate-50 p-4 rounded-lg">
+                            <h3 class="font-bold">IT Management Officer</h3>
+                            <p class="text-sm text-emerald-700">Dr. Abdulaziz Shinawi Dental (2018-2021)</p>
+                        </div>
+
+                        <div class="bg-slate-50 p-4 rounded-lg">
+                            <p class="text-sm"><strong>Previous Roles (1996-2017):</strong> IT positions across government organizations, chambers of commerce, and development committees</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-slate-800 mb-4">CAREER HIGHLIGHTS</h2>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-emerald-50 p-4 rounded-lg border-l-4 border-emerald-600">
+                            <p class="text-3xl font-bold text-emerald-700">25+</p>
+                            <p class="text-sm">Years of IT Excellence</p>
+                        </div>
+                        <div class="bg-teal-50 p-4 rounded-lg border-l-4 border-teal-600">
+                            <p class="text-3xl font-bold text-teal-700">15+</p>
+                            <p class="text-sm">Organizations Served</p>
+                        </div>
+                        <div class="bg-emerald-50 p-4 rounded-lg border-l-4 border-emerald-600">
+                            <p class="text-xl font-bold text-emerald-700">Multi-Sector</p>
+                            <p class="text-sm">Government, Healthcare, Commercial</p>
+                        </div>
+                        <div class="bg-teal-50 p-4 rounded-lg border-l-4 border-teal-600">
+                            <p class="text-xl font-bold text-teal-700">Full-Stack</p>
+                            <p class="text-sm">Complete IT Solutions</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="bg-emerald-800 p-4 text-center text-sm text-white">
+            Abdulaziz Muhammed Alhadi | Senior IT Expert | Transforming Vision into Digital Reality
+        </div>
+    </div>
+
+    <!-- ARABIC VERSION -->
+    <div id="cv-ar" class="hidden arabic-content max-w-6xl mx-auto bg-white shadow-2xl rounded-lg overflow-hidden" dir="rtl">
+        <div class="relative bg-gradient-to-r from-emerald-800 via-teal-700 to-cyan-800 text-white p-10">
+            <div class="relative z-10">
+                <h1 class="text-5xl font-bold mb-2">عبدالعزيز محمد الهادي</h1>
+                <p class="text-2xl text-emerald-100 mb-1">خبير تقنية معلومات ومهندس حلول متقدم</p>
+                <p class="text-lg text-emerald-200 mb-6">25 عامًا من الابتكار في التكنولوجيا</p>
+                <div class="flex flex-wrap gap-6 text-sm">
+                    <span>📍 المدينة المنورة، السعودية</span>
+                    <span>📞 +966-500700912</span>
+                    <span>✉️ aziz7m@gmail.com</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-10 gap-0">
+            <div class="col-span-3 bg-slate-50 p-8 space-y-6">
+                <section>
+                    <h2 class="text-lg font-bold text-emerald-700 mb-3">النبذة المهنية</h2>
+                    <p class="text-sm text-slate-700 leading-relaxed">خبير تقنية معلومات صاحب رؤية مع ربع قرن من التميز في هندسة البرمجيات وتصميم الأنظمة والتحول الرقمي عبر القطاعات الحكومية والصحية والتجارية.</p>
+                </section>
+
+                <section>
+                    <h2 class="text-lg font-bold text-emerald-700 mb-3">الخبرات الأساسية</h2>
+                    <ul class="text-sm text-slate-700 space-y-2">
+                        <li>• تطوير برمجيات المؤسسات</li>
+                        <li>• تطوير المواقع الإلكترونية المتكاملة</li>
+                        <li>• هندسة وتصميم قواعد البيانات</li>
+                        <li>• إدارة البنية التحتية لتقنية المعلومات</li>
+                        <li>• أتمتة العمليات التجارية</li>
+                        <li>• التحول الرقمي</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="text-lg font-bold text-emerald-700 mb-3">المهارات التقنية</h2>
+                    <div class="space-y-3 text-sm">
+                        <div><strong>لغات البرمجة:</strong><br><span dir="ltr">C#, C++, Visual Basic, Java, JavaScript</span></div>
+                        <div><strong>تقنيات الويب:</strong><br><span dir="ltr">ASP.NET, React, jQuery, HTML5, CSS3</span></div>
+                        <div><strong>قواعد البيانات:</strong><br><span dir="ltr">SQL Server, MySQL, Oracle</span></div>
+                        <div><strong>المنصات:</strong><br><span dir="ltr">Visual Studio .NET, MS Office</span></div>
+                        <div><strong>البنية التحتية:</strong> إدارة الشبكات، إدارة الخوادم</div>
+                        <div><strong>التصميم:</strong><br><span dir="ltr">Adobe Photoshop, UI/UX</span></div>
+                    </div>
+                </section>
+
+                <section>
+                    <h2 class="text-lg font-bold text-emerald-700 mb-3">اللغات</h2>
+                    <div class="text-sm space-y-2">
+                        <div><strong>العربية:</strong> اللغة الأم</div>
+                        <div><strong>الإنجليزية:</strong> إتقان مهني</div>
+                    </div>
+                </section>
+
+                <section>
+                    <h2 class="text-lg font-bold text-emerald-700 mb-3">المؤهلات العلمية</h2>
+                    <div class="bg-white p-4 rounded-lg shadow-sm border-r-4 border-emerald-600">
+                        <p class="font-bold text-sm">بكالوريوس تقنية المعلومات (مرتبة الشرف)</p>
+                        <p class="text-xs text-teal-700">تطوير الأنظمة والإدارة</p>
+                        <p class="text-xs text-slate-500 mt-1">جامعة المدينة العالمية</p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-span-7 p-8 space-y-6">
+                <section>
+                    <h2 class="text-2xl font-bold text-slate-800 mb-4">المسيرة المهنية</h2>
+                    
+                    <div class="space-y-4">
+                        <div class="bg-emerald-50 p-5 rounded-lg border-r-4 border-emerald-600">
+                            <div class="flex justify-between mb-2">
+                                <div>
+                                    <span class="bg-emerald-600 text-white text-xs px-2 py-1 rounded-full">الوظيفة الحالية</span>
+                                    <h3 class="font-bold text-lg mt-1">مدير تقنية المعلومات</h3>
+                                    <p class="text-emerald-700 font-semibold">البشرة الجديدة الطبية (نيوديرما وبيتال)</p>
+                                </div>
+                                <span class="text-sm text-slate-600">2024 - حتى الآن</span>
+                            </div>
+                            <ul class="text-sm text-slate-700 space-y-1 mr-4">
+                                <li>• إدارة البنية التحتية لتقنية المعلومات للمنشآت الطبية</li>
+                                <li>• تطوير تطبيقات ويب مخصصة للعيادات</li>
+                                <li>• إدارة الأجهزة والشبكات وأنظمة المراقبة</li>
+                                <li>• مبادرات التحول الرقمي</li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-slate-50 p-4 rounded-lg">
+                            <h3 class="font-bold">مدير تقنية المعلومات ومطور برمجيات رئيسي</h3>
+                            <p class="text-sm text-emerald-700">نقابة السيارات العامة (2011-2024)</p>
+                        </div>
+
+                        <div class="bg-slate-50 p-4 rounded-lg">
+                            <h3 class="font-bold">مطور برمجيات أول</h3>
+                            <p class="text-sm text-emerald-700">شركة خط المستقبل (2022-2024)</p>
+                        </div>
+
+                        <div class="bg-slate-50 p-4 rounded-lg">
+                            <h3 class="font-bold">مسؤول إدارة تقنية المعلومات</h3>
+                            <p class="text-sm text-emerald-700">مركز د. عبدالعزيز شناوي لطب الأسنان (2018-2021)</p>
+                        </div>
+
+                        <div class="bg-slate-50 p-4 rounded-lg">
+                            <p class="text-sm"><strong>الوظائف السابقة (1996-2017):</strong> مناصب تقنية في مؤسسات حكومية وغرف تجارية ولجان تطوير</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-bold text-slate-800 mb-4">إنجازات المسيرة المهنية</h2>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-emerald-50 p-4 rounded-lg border-r-4 border-emerald-600">
+                            <p class="text-3xl font-bold text-emerald-700">+25</p>
+                            <p class="text-sm">عاماً من التميز</p>
+                        </div>
+                        <div class="bg-teal-50 p-4 rounded-lg border-r-4 border-teal-600">
+                            <p class="text-3xl font-bold text-teal-700">+15</p>
+                            <p class="text-sm">مؤسسة تم خدمتها</p>
+                        </div>
+                        <div class="bg-emerald-50 p-4 rounded-lg border-r-4 border-emerald-600">
+                            <p class="text-xl font-bold text-emerald-700">متعدد القطاعات</p>
+                            <p class="text-sm">حكومي، صحي، تجاري</p>
+                        </div>
+                        <div class="bg-teal-50 p-4 rounded-lg border-r-4 border-teal-600">
+                            <p class="text-xl font-bold text-teal-700">متكامل</p>
+                            <p class="text-sm">حلول تقنية شاملة</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="bg-emerald-800 p-4 text-center text-sm text-white">
+            عبدالعزيز محمد الهادي | خبير تقنية المعلومات الأول | تحويل الرؤية إلى واقع رقمي
+        </div>
+    </div>
+
+    <script>
+        function switchLanguage(lang) {
+            const enCV = document.getElementById('cv-en');
+            const arCV = document.getElementById('cv-ar');
+            const enBtn = document.getElementById('btn-en');
+            const arBtn = document.getElementById('btn-ar');
+            
+            if (lang === 'en') {
+                enCV.classList.remove('hidden');
+                arCV.classList.add('hidden');
+                enBtn.classList.remove('bg-gray-400');
+                enBtn.classList.add('bg-emerald-600');
+                arBtn.classList.remove('bg-teal-600');
+                arBtn.classList.add('bg-gray-400');
+            } else {
+                enCV.classList.add('hidden');
+                arCV.classList.remove('hidden');
+                arBtn.classList.remove('bg-gray-400');
+                arBtn.classList.add('bg-teal-600');
+                enBtn.classList.remove('bg-emerald-600');
+                enBtn.classList.add('bg-gray-400');
+            }
+        }
+    </script>
+</body>
+</html>
